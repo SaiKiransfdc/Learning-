@@ -11,11 +11,10 @@
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
-    <tabs>GearSetTest__c</tabs>
+    <tabs>Payment__c</tabs>
+    <tabs>Test__c</tabs>
+    <tabs>Customer__c</tabs>
     <tabs>Student__c</tabs>
     <tabs>Course__c</tabs>
-    <tabs>Gear__c</tabs>
-    <tabs>TestObject__c</tabs>
-    <tabs>Test__c</tabs>
-    <tabs>TestObject2__c</tabs>
+    <tabs>Example__c</tabs>
 </CustomApplication>

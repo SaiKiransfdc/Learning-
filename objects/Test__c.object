@@ -157,6 +157,35 @@
         <trackTrending>false</trackTrending>
         <type>Phone</type>
     </fields>
+    <fields>
+        <fullName>Method__c</fullName>
+        <externalId>false</externalId>
+        <label>Method</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Selenium</fullName>
+                    <default>false</default>
+                    <label>Selenium</label>
+                </value>
+                <value>
+                    <fullName>Automation</fullName>
+                    <default>false</default>
+                    <label>Automation</label>
+                </value>
+                <value>
+                    <fullName>Manual</fullName>
+                    <default>false</default>
+                    <label>Manual</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>

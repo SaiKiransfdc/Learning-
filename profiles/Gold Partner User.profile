@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>false</custom>
     <userLicense>Gold Partner</userLicense>
-    <classAccesses>
-        <apexClass>BatchLeadConvert</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>BatchLeadConvertTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>LeadConvertValidationTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    
+    
+    
     <applicationVisibilities>
         <application>standard__AppLauncher</application>
         <default>false</default>
@@ -1452,6 +1443,20 @@
     <layoutAssignments>
         <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>Customer__c-Customer Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Customer__c-Customer Layout</layout>
+        <recordType>Customer__c.Contract</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Customer__c-Customer Layout</layout>
+        <recordType>Customer__c.Permanent</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Payment__c-Payment Layout</layout>
+    </layoutAssignments>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
@@ -1467,17 +1472,24 @@
         <recordType>Metric.Progress</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Customer__c.Contract</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Customer__c.Permanent</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
     <tabVisibilities>
         <tab>Course__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
-    <tabVisibilities>
-        <tab>GearSetTest__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
+    
     <tabVisibilities>
         <tab>Gear__c</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>Student__c</tab>
@@ -1485,7 +1497,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>TestObject2__c</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>TestObject__c</tab>
@@ -1634,6 +1646,18 @@
     <tabVisibilities>
         <tab>standard-UserProvisioningRequest</tab>
         <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Customer__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Example__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Payment__c</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userPermissions>
         <enabled>true</enabled>

@@ -140,9 +140,9 @@
         <type>Default</type>
     </actionOverrides>
     <fields>
-        <fullName>Address__c</fullName>
+        <fullName>PaymentMethod__c</fullName>
         <externalId>false</externalId>
-        <label>Address</label>
+        <label>PaymentMethod</label>
         <length>18</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -150,34 +150,59 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Name__c</fullName>
+        <fullName>PaymentType__c</fullName>
         <externalId>false</externalId>
-        <label>Name</label>
-        <length>18</length>
+        <label>PaymentType</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Cash</fullName>
+                    <default>false</default>
+                    <label>Cash</label>
+                </value>
+                <value>
+                    <fullName>Debit</fullName>
+                    <default>false</default>
+                    <label>Debit</label>
+                </value>
+                <value>
+                    <fullName>Visa</fullName>
+                    <default>false</default>
+                    <label>Visa</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <enableActivities>false</enableActivities>
+    <description>this is Custom Object</description>
+    <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
-    <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>Pull Request</label>
+    <label>Payment</label>
     <nameField>
-        <label>Pull Request Name</label>
+        <label>Payment  Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>pull Request</pluralLabel>
+    <pluralLabel>Payment</pluralLabel>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
 </CustomObject>

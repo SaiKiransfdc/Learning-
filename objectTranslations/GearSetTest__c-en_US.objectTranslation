@@ -1,27 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
     <fields>
-        <label><!-- Address --></label>
-        <name>Address__c</name>
-    </fields>
-    <fields>
-        <label><!-- DeploymentType --></label>
-        <name>DeploymentType__c</name>
-        <picklistValues>
-            <masterLabel>Ant</masterLabel>
-            <translation><!-- Ant --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>ChangeSet</masterLabel>
-            <translation><!-- ChangeSet --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>GeraSet</masterLabel>
-            <translation><!-- GeraSet --></translation>
-        </picklistValues>
-    </fields>
-    <fields>
-        <label><!-- TestNumber --></label>
-        <name>TestNumber__c</name>
+        <label><!-- Method --></label>
+        <name>Method__c</name>
     </fields>
     <caseValues>
         <plural>false</plural>
@@ -29,7 +12,7 @@
     </caseValues>
     <caseValues>
         <plural>true</plural>
-        <value>GearSet</value>
+        <value>Gearset</value>
     </caseValues>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

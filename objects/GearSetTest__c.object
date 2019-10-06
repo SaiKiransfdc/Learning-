@@ -140,50 +140,11 @@
         <type>Default</type>
     </actionOverrides>
     <fields>
-        <fullName>Address__c</fullName>
+        <fullName>Method__c</fullName>
         <externalId>false</externalId>
-        <label>Address</label>
-        <length>45</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>DeploymentType__c</fullName>
-        <externalId>false</externalId>
-        <label>DeploymentType</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Ant</fullName>
-                    <default>false</default>
-                    <label>Ant</label>
-                </value>
-                <value>
-                    <fullName>ChangeSet</fullName>
-                    <default>false</default>
-                    <label>ChangeSet</label>
-                </value>
-                <value>
-                    <fullName>GeraSet</fullName>
-                    <default>false</default>
-                    <label>GeraSet</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>TestNumber__c</fullName>
-        <externalId>false</externalId>
-        <label>TestNumber</label>
-        <length>25</length>
-        <required>false</required>
+        <label>Method</label>
+        <length>13</length>
+        <required>true</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
@@ -205,7 +166,7 @@
         <label>GearSetTest Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>GearSet</pluralLabel>
+    <pluralLabel>Gearset</pluralLabel>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

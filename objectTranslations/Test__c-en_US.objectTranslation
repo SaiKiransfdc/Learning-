@@ -7,6 +7,22 @@
         <label><!-- Phone --></label>
         <name>Phone__c</name>
     </fields>
+    <fields>
+        <label><!-- Method --></label>
+        <name>Method__c</name>
+        <picklistValues>
+            <masterLabel>Automation</masterLabel>
+            <translation><!-- Automation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual</masterLabel>
+            <translation><!-- Manual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Selenium</masterLabel>
+            <translation><!-- Selenium --></translation>
+        </picklistValues>
+    </fields>
     <caseValues>
         <plural>false</plural>
         <value>TestExample</value>
@@ -16,15 +32,12 @@
         <value>Example</value>
     </caseValues>
     <startsWith>Consonant</startsWith>
+    
     <layouts>
-        <layout>TestExample2</layout>
+        <layout>Test Layout</layout>
         <sections>
             <label><!-- Custom Links --></label>
             <section>Custom Links</section>
-        </sections>
-        <sections>
-            <label><!-- Example --></label>
-            <section>Example</section>
         </sections>
     </layouts>
 </CustomObjectTranslation>

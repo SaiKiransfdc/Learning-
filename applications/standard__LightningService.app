@@ -12,13 +12,12 @@
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-home</tabs>
-    <tabs>GearSetTest__c</tabs>
+    <tabs>Payment__c</tabs>
+    <tabs>Test__c</tabs>
+    <tabs>Customer__c</tabs>
     <tabs>Student__c</tabs>
     <tabs>Course__c</tabs>
-    <tabs>Gear__c</tabs>
-    <tabs>TestObject__c</tabs>
-    <tabs>Test__c</tabs>
-    <tabs>TestObject2__c</tabs>
+    <tabs>Example__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningService_UtilityBar</utilityBar>
     <workspaceConfig>
@@ -26,19 +25,16 @@
             <tab>Course__c</tab>
         </mappings>
         <mappings>
-            <tab>GearSetTest__c</tab>
+            <tab>Customer__c</tab>
         </mappings>
         <mappings>
-            <tab>Gear__c</tab>
+            <tab>Example__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Payment__c</tab>
         </mappings>
         <mappings>
             <tab>Student__c</tab>
-        </mappings>
-        <mappings>
-            <tab>TestObject2__c</tab>
-        </mappings>
-        <mappings>
-            <tab>TestObject__c</tab>
         </mappings>
         <mappings>
             <tab>Test__c</tab>

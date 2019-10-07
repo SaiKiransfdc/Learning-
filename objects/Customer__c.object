@@ -140,53 +140,79 @@
         <type>Default</type>
     </actionOverrides>
     <fields>
-        <fullName>AsyncApexJobId__c</fullName>
+        <fullName>Address__c</fullName>
         <externalId>false</externalId>
-        <label>AsyncApexJobId</label>
+        <label>Address</label>
         <length>18</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contract_period__c</fullName>
+        <externalId>false</externalId>
+        <label>Contract period</label>
+        <length>30</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Records__c</fullName>
+        <fullName>Email__c</fullName>
         <externalId>false</externalId>
-        <label>Records</label>
-        <length>32768</length>
+        <label>Email</label>
+        <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>LongTextArea</type>
-        <visibleLines>3</visibleLines>
+        <type>Email</type>
+        <unique>false</unique>
     </fields>
     <fields>
-        <fullName>StackTrace__c</fullName>
+        <fullName>Phone__c</fullName>
         <externalId>false</externalId>
-        <label>Stack Trace</label>
-        <length>32768</length>
+        <label>Phone</label>
+        <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>LongTextArea</type>
-        <visibleLines>3</visibleLines>
+        <type>Phone</type>
     </fields>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <enableActivities>false</enableActivities>
-    <enableBulkApi>false</enableBulkApi>
+    <description>This Customer  customer object</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
-    <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
-    <enableSharing>false</enableSharing>
-    <enableStreamingApi>false</enableStreamingApi>
-    <label>Batch Lead Convert Errors</label>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <label>Customer</label>
     <nameField>
-        <displayFormat>ERR-{0000}</displayFormat>
-        <label>Batch Lead Convert Error Number</label>
-        <type>AutoNumber</type>
+        <label>Customer Name</label>
+        <type>Text</type>
     </nameField>
-    <pluralLabel>Batch Lead Convert Errors</pluralLabel>
+    <pluralLabel>Customer</pluralLabel>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <recordTypes>
+        <fullName>Contract</fullName>
+        <active>true</active>
+        <description>This Record type show teh Contract Employee details</description>
+        <label>Contract</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Permanent</fullName>
+        <active>true</active>
+        <description>This record type for shows the Permanent Employee Details</description>
+        <label>Permanent</label>
+    </recordTypes>
 </CustomObject>

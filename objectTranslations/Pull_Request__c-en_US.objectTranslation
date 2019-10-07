@@ -7,13 +7,4 @@
         <label><!-- Name --></label>
         <name>Name__c</name>
     </fields>
-    <caseValues>
-        <plural>false</plural>
-        <value>Pull Request</value>
-    </caseValues>
-    <caseValues>
-        <plural>true</plural>
-        <value>pull Request</value>
-    </caseValues>
-    <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

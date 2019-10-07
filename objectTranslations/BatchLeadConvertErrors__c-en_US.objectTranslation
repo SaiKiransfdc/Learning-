@@ -11,13 +11,4 @@
         <label><!-- Stack Trace --></label>
         <name>StackTrace__c</name>
     </fields>
-    <caseValues>
-        <plural>false</plural>
-        <value>Batch Lead Convert Errors</value>
-    </caseValues>
-    <caseValues>
-        <plural>true</plural>
-        <value>Batch Lead Convert Errors</value>
-    </caseValues>
-    <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
